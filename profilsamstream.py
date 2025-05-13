@@ -1,0 +1,53 @@
+import streamlit as st
+
+# Titre principal
+st.title("Résumé de Profil : Informaticien Data Manager")
+
+# Sous-titre
+st.subheader("👨‍💻 Profil professionnel")
+
+# Résumé
+st.markdown("""
+Je suis un informaticien spécialisé en gestion des données (Data Manager), avec une expertise dans la collecte, l'organisation, la sécurisation et l'analyse des données au service de la prise de décision. 
+Fort de plusieurs années d'expérience, j'interviens dans des environnements exigeants (santé, finance, recherche, etc.) pour garantir l'intégrité, la qualité et l'exploitation optimale des données.
+""")
+
+# Compétences
+st.subheader("🛠️ Compétences clés")
+st.markdown("""
+- Gestion de bases de données relationnelles (PostgreSQL, MySQL, SQL Server)
+- ETL (Talend, Apache NiFi, Airflow)
+- Analyse de données (Python, Pandas, Power BI)
+- Data Governance et Data Quality
+- Sécurité des données et RGPD
+- Maîtrise des outils de reporting et tableaux de bord
+""")
+
+# Expérience
+st.subheader("💼 Expérience professionnelle")
+st.markdown("""
+**Data Manager – Hôpital Universitaire XYZ (2021 – Présent)**  
+- Pilotage de projets de collecte et d'intégration de données cliniques  
+- Mise en place de pipelines ETL automatisés  
+- Formation des équipes à la gestion des données  
+
+**Analyste Données – Entreprise ABC (2018 – 2021)**  
+- Conception de tableaux de bord interactifs pour la direction  
+- Nettoyage et validation de données issues de sources multiples  
+""")
+
+# Formation
+st.subheader("🎓 Formation")
+st.markdown("""
+- Master en Informatique, spécialisation Data Management – Université de Technologie  
+- Certifications : Microsoft Power BI, Talend Data Integration, RGPD & Sécurité des Données
+""")
+
+# Contact  www.linkedin.com/in/  https://www.linkedin.com/in/samuel-zigashane-193103302/
+# samuel-zigashane-193103302
+st.subheader("📞 Contact")
+st.markdown("""
+- 📧 Email : zigashanesamy@gmail.com  
+- 📱 Téléphone : +243 977 85 19 20 
+- 🌐 LinkedIn : [linkedin.com/in/datamanager](https://www.linkedin.com/in/samuel-zigashane-193103302/)
+""")
