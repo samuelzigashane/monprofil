@@ -15,9 +15,9 @@ Fort de plusieurs années d'expérience, j'interviens dans des environnements ex
 # Compétences
 st.subheader("🛠️ Compétences clés")
 st.markdown("""
-- Gestion de bases de données relationnelles (PostgreSQL, MySQL, SQL Server)
+- Gestion de bases de données relationnelles (MySQL, SQL Server)
 - ETL (Talend, Apache NiFi, Airflow)
-- Analyse de données (Python, Pandas, Power BI)
+- Analyse de données (Python, Pandas, Power BI,CoboCollect)
 - Data Governance et Data Quality
 - Sécurité des données et RGPD
 - Maîtrise des outils de reporting et tableaux de bord
