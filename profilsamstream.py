@@ -26,12 +26,17 @@ st.markdown("""
 # Expérience
 st.subheader("💼 Expérience professionnelle")
 st.markdown("""
-**Data Manager – Hôpital Universitaire XYZ (2021 – Présent)**  
+**Data Manager –  Internatinal Youth Fellowship/Goma (2018 – 2022)**  
 - Pilotage de projets de collecte et d'intégration de données cliniques  
 - Mise en place de pipelines ETL automatisés  
 - Formation des équipes à la gestion des données  
 
-**Analyste Données – Entreprise ABC (2018 – 2021)**  
+**Formateur Informaticien – Un Jour Nouveau/Goma (2021 – Présent)**  
+- Pilotage de projets de collecte et d'intégration de données cliniques  
+- Mise en place de pipelines ETL automatisés  
+- Formation des équipes à la gestion des données  
+
+**Analyste Données – Entreprise BUJIGO/Goma (2018 – Present)**  
 - Conception de tableaux de bord interactifs pour la direction  
 - Nettoyage et validation de données issues de sources multiples  
 """)
