@@ -39,7 +39,7 @@ st.markdown("""
 # Formation
 st.subheader("🎓 Formation")
 st.markdown("""
-- Master en Informatique, spécialisation Data Management – Université de Technologie  
+- Master en Informatique, spécialisation Data Management – Institut Superieur d'informatique et de Gestion/ISIG-Goma  
 - Certifications : Microsoft Power BI, Talend Data Integration, RGPD & Sécurité des Données
 """)
 
