@@ -58,3 +58,19 @@ st.markdown("""
 - 📱 Téléphone : +243 977 85 19 20 
 - 🌐 LinkedIn : [linkedin.com/in/datamanager](https://www.linkedin.com/in/samuel-zigashane-193103302/)
 """)
+st.subheader("📬 Me contacter directement")
+
+with st.form(key="contact_form"):
+    name = st.text_input("Votre nom")
+    sender_email = st.text_input("Votre email")
+    message = st.text_area("Votre message")
+
+    submitted = st.form_submit_button("Envoyer via Gmail")
+    if submitted:
+        email_destinataire = "informaticien.data@example.com"  # Mets ton vrai email ici
+        sujet = f"Contact depuis votre profil Streamlit – {name}"
+        corps = f"Nom : {name}\nEmail : {sender_email}\n\nMessage :\n{message}"
+        
+        mailto_link = f"mailto:{email_destinataire}?subject={sujet}&body={corps}"
+        st.markdown(f"[📧 Cliquez ici pour envoyer via Gmail]({mailto_link})")
+        st.success("Cliquez sur le lien ci-dessus pour ouvrir Gmail avec le message pré-rempli.")
