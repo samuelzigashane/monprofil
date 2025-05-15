@@ -2,6 +2,8 @@ import streamlit as st
 
 # Titre principal
 st.title("Résumé de Profil : Informaticien Data Manager")
+# Sous-titre
+st.subheader("👨‍💻 Ir Samuel ZIGASHANE")
 
 # Sous-titre
 st.subheader("👨‍💻 Profil professionnel")
