@@ -6,7 +6,7 @@ st.title("Résumé de Profil : Informaticien Data Manager")
 st.subheader("👨‍💻 Ir Samuel ZIGASHANE")
 
 # Sous-titre
-st.subheader("👨‍💻 Profil professionnel")
+st.subheader(" Profil professionnel")
 
 # Résumé
 st.markdown("""
