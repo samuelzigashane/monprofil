@@ -58,6 +58,6 @@ st.markdown("""
 - 📱 Téléphone : +243 977 85 19 20 
 - 🌐 LinkedIn : [linkedin.com/in/datamanager](https://www.linkedin.com/in/samuel-zigashane-193103302/)
 """)
-st.subheader("📬 Me contacter directement")
+
 
 
